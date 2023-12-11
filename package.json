@@ -34,6 +34,9 @@
   },
   "build": {
     "appId": "com.hafizh.justdoit",
+    "directory": {
+      "output": "release"
+    },
     "dmg": {
       "contents": [
         {
@@ -57,8 +60,5 @@
         "deb"
       ]
     }
-  },
-  "directories": {
-    "output": "release"
   }
 }
