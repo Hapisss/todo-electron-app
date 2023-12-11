@@ -1,5 +1,11 @@
 version: 1.0.{build}
 
-build:
+environment:
+  nodejs_version: 14
 
-  verbosity: minimal
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install
+
+build_script:
+  - npm run dist
