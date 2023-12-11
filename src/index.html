@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Just Do It!</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <h1 id="greeting"></h1>
+
+  <!-- List of Todo -->
+  <div id="input-div">
+    <input id="input-todo" placeholder="Add something" type="text">
+    <button id="add-button">Add</button>
+  </div>
+  <div id="todo-list"></div>
+
+  <div id="modal-container">
+    <div id="modal-box">
+      <div>
+        <img src="" alt="">
+        <h1>Edit</h1>
+        <div id="edit-input-div">
+          <input id="edit-input-todo" type="text" placeholder="Add something">
+          <button id="edit-button">Done</button>
+          <button id="cancel-edit-button">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="./renderer.js"></script>
+
+</html>
