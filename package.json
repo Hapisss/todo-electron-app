@@ -34,7 +34,7 @@
   },
   "build": {
     "appId": "com.hafizh.justdoit",
-    "directory": {
+    "directories": {
       "output": "release"
     },
     "dmg": {
